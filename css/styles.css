@@ -209,3 +209,18 @@ a:hover {
   position: relative;
   top: 1px;
 }
+
+li {
+  
+  list-style-image: url("green_tick.png");
+
+  font-size: 22px;
+  list-style-type: none;
+  align-items: center;
+  display:flex;
+  margin-left: 0;
+}
+
+li:before {
+  content: url("green_tick.png");
+}
