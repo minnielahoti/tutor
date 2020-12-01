@@ -20,6 +20,7 @@ h1 {
   margin: 0;
   font-size: 5.625rem;
   color: #f54291;
+
   padding-top: 90px;
 }
 
@@ -27,6 +28,7 @@ h2 {
   font-size: 2.5rem;
   font-family: 'Nurito', sans-serif;
   color: #f54291;
+
   margin-top: 0;
 }
 
@@ -70,7 +72,7 @@ p {
   width: 100px;
   display: block;
   margin-left: 150px;
-  padding-top: 20px;
+  padding-top: 60px;
   background-color: #e8f9e9;
 }
 
@@ -211,7 +213,7 @@ a:hover {
 }
 
 li {
-  
+
   list-style-image: url("green_tick.png");
 
   font-size: 22px;
@@ -223,4 +225,31 @@ li {
 
 li:before {
   content: url("green_tick.png");
+}
+
+.navigation_bar {
+  background-color: #9de3d0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  padding-top:15px;
+}
+
+.navigation_bar a{
+  color: #40514E;
+
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+.navigation_bar a:hover {
+  background-color: #F688BB;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
